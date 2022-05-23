@@ -8,15 +8,21 @@ import { BodyContainer } from './Styles/BodyContainerStyled'
 export default function Body() {
     return (
         <BodyContainer>
-            <MenuPage />
-            <Switch>
-                <Route path="/" exact>
-                    <Home />
-                </Route>
-                <Route path="/favorite">
-                    <Favorite />
-                </Route>
-            </Switch>
+            <div style={{
+                width: '100%',
+                maxWidth: '1200px',
+                margin: '0 auto',
+            }}>
+                <MenuPage />
+                <Switch>
+                    <Route path="/" exact>
+                        <Home />
+                    </Route>
+                    <Route path="/favorite">
+                        <Favorite />
+                    </Route>
+                </Switch>
+            </div>
         </BodyContainer>
     )
 }

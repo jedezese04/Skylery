@@ -4,7 +4,7 @@ import { Description, JumbotronContainer, Shadow, Title } from './Styles/Jumbotr
 import backgroundImage from "../images/background.jpg"
 
 const BackgroundImage = styled.img`
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
